@@ -1,0 +1,37 @@
+/* Terreain.css */
+
+.terrain-container {
+    position: relative;
+  }
+  
+  .player-position {
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  
+  .goalkeeper {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .defender {
+    top: 30%;
+    left: 20%;
+  }
+  
+  /* Add more styles for other positions as needed */
+  .midfielder {
+    top: 50%;
+    left: 20%;
+  }
+  
+  .forward {
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
